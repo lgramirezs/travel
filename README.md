@@ -1,1 +1,3 @@
-# travel
+# Travel
+
+Práctica de platzi travel
