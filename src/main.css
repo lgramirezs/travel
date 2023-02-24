@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+      @apply w-64 h-64 shadow-2xl rounded-lg flex-none transform transition-all hover:-translate-y-2 hover:shadow-xl;
+    }
+    .card_img {
+      @apply w-full h-3/5 rounded-t-lg bg-cover bg-center;
+    }
+    .card:nth-child(odd) {
+      @apply bg-secondary dark:bg-gray-800;
+    }
+    .card:nth-child(even) {
+      @apply dark:bg-gray-700;
+    }
+    .cardTitle {
+      @apply text-3xl px-8 pt-8 pb-1 font-semibold text-white
+    }
+}
